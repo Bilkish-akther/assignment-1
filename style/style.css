@@ -1,0 +1,275 @@
+*{ margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.bannar-part{
+background-image: url("../images/banner/banner3.png");
+position: absolute;
+width: 1574px;
+height: 808px;
+left: 0px;
+top: 1px;
+}
+
+/* All Thinks Are Possible If You believe */
+
+.header-part{
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    
+    color: #FFFFFF;
+}    
+.header-discription{
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 468px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #FFFFFF;
+    
+}
+.btn-primary {
+position: absolute;
+width: 160px;
+height: 64px;
+left: 1210px;
+top: 578px;
+}
+
+
+/* half -width -bannar paart */
+
+.full-kaj{
+    margin-top: 75px;
+}
+.half-width-left{
+    width: 45%;
+    float: right;
+   position: absolute;
+   
+    left: 700px;
+    top: 1039px;
+}
+.half-width-right{
+width: 45%;
+float: left;
+position: absolute;
+width: 1210px;
+height: 723.3px;
+left: 130px;
+top: 900px;
+}
+
+
+.full-title{
+    margin-left: 100px;
+    font-size: 35px;
+    font-weight: 900;
+    color: black;
+    margin-top: 100px;
+
+}
+.full-data{
+    margin-left: 100px;
+    font-size: 20px;
+    color: rgb(7, 7, 7);
+    text-align:left;
+    margin-top: 30px;
+}
+
+   
+
+
+     
+
+/* What i do styles */
+.section-title{
+
+    position: absolute;
+    width: 179px;
+    height: 47px;
+    left: 765px;
+    top: 1692px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
+    
+
+}
+
+.skills-container{
+position: absolute;
+width: 1141px;
+height: 202.96px;
+left: 430px;
+top: 1789px;
+gap: 30px;
+display: flex;
+    
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #501616;
+}
+
+.watch{
+position: absolute;
+width: 1140px;
+height: 300px;
+left: 130px;
+top: 2221.96px;
+
+background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+background-image: url(../images/watch.png);
+border-radius: 8px;
+margin-right: 130px;
+   
+}
+.watch-body{
+    position: absolute; 
+    top: 80px;
+    left: 80px;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    
+}
+
+.watch-button{
+    position: absolute; 
+    top: 180px;
+    left: 80px;
+    background-color: rgb(255,255,255);
+    font-weight: bold;
+    color: tomato;
+    width: fit-content;
+    border-radius: 5px;
+    float: right;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.watch-button :hover{
+    background-color: tomato;
+    color: white;
+    box-shadow: 1px 1px 5px white;
+    transition: .5s;
+    cursor: pointer; 
+    border: 1px solid rgb(255,255,255);
+}
+
+
+
+
+   
+
+.footer{
+    background-color: #222222;
+    width: 1600;
+    
+    color: white;
+    position: absolute;
+    height: 427px;
+    top: 2681.96px;
+    padding-left: 400px;
+    padding-right: 500px;
+    float: left;
+   flex: auto;
+ 
+   padding-top: 50px;
+    
+    }
+    
+    
+    
+    .footer-p {
+        line-height: 1.5;
+        max-width: 70%;
+        color: rgb(248, 248, 252);}
+        
+    input{
+        height: 24px;
+        margin-bottom: 24px;
+        border: 0;
+        width: 70%;
+        padding: 9px 15px;
+    
+    }
+    .footer-style{
+        padding-top: 0px;
+        padding-bottom: 700px;
+        padding-left: 900px;
+        padding-right: 130px;
+    
+    
+    }
+    .footer-button{
+
+
+    position: absolute; 
+    
+    background-color: rgb(75, 155, 242);
+    font-weight: bold;
+    color: rgb(252, 247, 247);
+    width: fit-content;
+    border-radius: 5px;
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+
+
+    }
+
+    .footer-button:hover{
+        background-color: rgb(71, 145, 255);
+        color: white;
+        box-shadow: 1px 1px 5px white;
+        transition: .5s;
+        cursor: pointer;
+        border: 1px solid rgb(255, 255, 255);}
+    
+
+
+
+
+
+
+
+
+
+
+
