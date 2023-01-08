@@ -1,5 +1,6 @@
 *{ margin: 0;
     padding: 0;
+   
     font-family: sans-serif;
 }
 .bannar-part{
@@ -103,9 +104,10 @@ top: 900px;
     position: absolute;
     width: 179px;
     height: 47px;
-    left: 765px;
+    left: 650px;
     top: 1692px;
-    
+ 
+       
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 600;
@@ -121,7 +123,7 @@ top: 900px;
 position: absolute;
 width: 1141px;
 height: 202.96px;
-left: 430px;
+left: 330px;
 top: 1789px;
 gap: 30px;
 display: flex;
@@ -189,79 +191,120 @@ margin-right: 130px;
     cursor: pointer; 
     border: 1px solid rgb(255,255,255);
 }
+    
+    
+    /* Resume Styles */
+    .resume-content{
+     
+      margin-top:2700px;
+      
+      display: flex;
+      gap: 35px;
+    
+      }
+
+.resume-item{
+    margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.resume-title{
+    font-weight: 800;
+    font-size: 25px;
+    color: #0c0c0c;
+    margin-bottom: 15px;
+    margin-left: 220px;
+
+}
+.resume .title{
+    font-weight: 800;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 15px;
+    
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #757575;
+}
 
 
-
-
-   
-
+/*footer*/
 .footer{
     background-color: #222222;
-    width: 1600;
-    
+    width: 700px;
     color: white;
     position: absolute;
     height: 427px;
-    top: 2681.96px;
-    padding-left: 400px;
-    padding-right: 500px;
-    float: left;
-   flex: auto;
- 
-   padding-top: 50px;
+    top:3400.96px;
+    flex: auto;
+    float: none;
+    padding-top: 80px;
+    padding-left: 450px;
+    padding-right: 450px;
+   line-gap-override: 10px;
+  
+   
+  
+}
+
+.footer-p {
+  letter-spacing: normal;
+    max-width: 60%;
+    color: rgb(251, 249, 244);}
     
-    }
-    
-    
-    
-    .footer-p {
-        line-height: 1.5;
-        max-width: 70%;
-        color: rgb(248, 248, 252);}
-        
+
     input{
         height: 24px;
-        margin-bottom: 24px;
-        border: 0;
-        width: 70%;
-        padding: 9px 15px;
-    
+        margin-bottom: 5px;
+        border: 5px;
+        width: 100%;
+        padding: 10px 60px;
     }
-    .footer-style{
-        padding-top: 0px;
-        padding-bottom: 700px;
-        padding-left: 900px;
-        padding-right: 130px;
-    
-    
-    }
-    .footer-button{
+.footer-style{
+    padding-top: 0px;
+    padding-bottom: 700px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: large;
+    font-family: 'Work Sans';
 
 
-    position: absolute; 
-    
-    background-color: rgb(75, 155, 242);
-    font-weight: bold;
-    color: rgb(252, 247, 247);
-    width: fit-content;
-    border-radius: 5px;
-    float: left;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 10px;
-    padding-top: 15px;
+}
+.footer-button{
+
+position: absolute; 
+background-color: rgb(75, 155, 242);
+font-weight: bold;
+font-size: large;
+color: rgb(252, 247, 247);
+width: fit-content;
+border-radius: 5px;
+float: left;
+padding-left: 25px;
+padding-right: 25px;
+padding-bottom: 10px;
+padding-top: 15px;
 
 
-    }
+}
 
-    .footer-button:hover{
-        background-color: rgb(71, 145, 255);
-        color: white;
-        box-shadow: 1px 1px 5px white;
-        transition: .5s;
-        cursor: pointer;
-        border: 1px solid rgb(255, 255, 255);}
-    
+.footer-button:hover{
+    background-color: rgb(71, 145, 255);
+    color: white;
+    box-shadow: 1px 1px 5px white;
+    transition: .5s;
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 255);}
+
+
 
 
 
